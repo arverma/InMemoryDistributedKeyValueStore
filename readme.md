@@ -1,5 +1,5 @@
 ### Unacademy assignment: Distributed Key-Value Store
-![diagram](unacademy.png)
+![diagram](images/block_diagram.png)
 ## OVERVIEW
 A key-value store is a database that stores some value against a given key. The database can be queried using a key to retrieve the value. The block diagram shown above is a in-memory distributed key-value store.
 
