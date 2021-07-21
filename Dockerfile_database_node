@@ -1,0 +1,8 @@
+FROM python:latest
+COPY database.py /
+COPY client.py /
+RUN apt-get update
+RUN apt upgrade -y
+RUN apt install -y vim
+RUN apt install -y iputils-ping
+CMD python3 database.py
